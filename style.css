@@ -1,0 +1,59 @@
+/* CSS Document */
+   body { font-family: Book Antigua;
+         background-image: url(images/fabric-pat-004.jpg); /* путь к фоновому изображению */
+        background-attachment: fixed;
+        } 
+   H1 {color : #8B2323;}
+   H2 {color : #00008B;}
+   H4 {color : #9370DB;}
+          
+   H1,H2, H3, H4{font-family: Georgia;
+               font-style : italic;
+               text-align : center;
+              }                                                                      
+   B {font-style : italic;
+     color : #00008B;
+     }
+  FONT {font-size: 14pt;}
+  P {text-align: justify;
+      text-indent: 30pt;
+    }
+  IMG {margin: 15pt}
+  HR {width: 90%; 
+      size: 2;
+      height: 2;
+      color: #8B2323;
+      background-color: #8B2323;
+      noshade;
+      border: none;
+      }
+	  
+	HR.head{
+		width: 90%;
+		border: none;
+		color: #8B2323; 
+		background-color: #8B2323; 
+		height: 3px;
+		size: 3;
+		}
+	
+	.menu {
+		text-decoration: none;
+		color: blue
+		}
+		
+	.menu:hover {
+		color: #8B2323
+		}
+		
+	A:hover {
+	color: #F4A460
+	}
+	
+	A: {
+	color: #00008B
+	}
+	
+	A:visited {
+	color: #8B2323
+	}
