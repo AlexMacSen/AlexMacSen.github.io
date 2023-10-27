@@ -1,59 +1,77 @@
-/* CSS Document */
-   body { font-family: Book Antigua;
-         background-image: url(images/fabric-pat-004.jpg); /* путь к фоновому изображению */
-        background-attachment: fixed;
-        } 
-   H1 {color : #8B2323;}
-   H2 {color : #00008B;}
-   H4 {color : #9370DB;}
-          
-   H1,H2, H3, H4{font-family: Georgia;
-               font-style : italic;
-               text-align : center;
-              }                                                                      
-   B {font-style : italic;
-     color : #00008B;
-     }
-  FONT {font-size: 14pt;}
-  P {text-align: justify;
-      text-indent: 30pt;
-    }
-  IMG {margin: 15pt}
-  HR {width: 90%; 
-      size: 2;
-      height: 2;
-      color: #8B2323;
-      background-color: #8B2323;
-      noshade;
-      border: none;
-      }
-	  
-	HR.head{
-		width: 90%;
-		border: none;
-		color: #8B2323; 
-		background-color: #8B2323; 
-		height: 3px;
-		size: 3;
-		}
-	
-	.menu {
-		text-decoration: none;
-		color: blue
-		}
-		
-	.menu:hover {
-		color: #8B2323
-		}
-		
-	A:hover {
-	color: #F4A460
-	}
-	
-	A: {
-	color: #00008B
-	}
-	
-	A:visited {
-	color: #8B2323
-	}
+/* GENERAL STYLES */
+body {
+	font-family: Arial, San-serif;
+	font-size: 100%;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style-type: none;	
+}
+a {
+	text-decoration: none;
+}
+b {font-style : italic;
+  color : #00008B;
+  }
+p {
+	font-size: 14px;
+	line-height: 1.3em; 
+	text-align: justify; 
+}
+.container {
+	margin: 0 auto;
+	width: 1024px;
+}
+
+/* HEADER */
+.header {
+	pading: 50px 0;
+	background-color: rgb(160, 243, 149) ;
+
+}
+.header, footer, h1, h2 {
+	color:  #00008B;
+	text-align: center;
+  font-family: Georgia;
+  font-style : italic;
+  text-align : center;
+}
+
+/* NAVIGATION */
+.page-navigation {
+	background-color: #00008B;
+	border-color: #00008B;
+	min-height: 64px;
+}
+.page-navigation li {
+	float: left;
+	width: 100px;
+}
+.page-navigation a {
+	display: block;
+	color: rgb(160, 243, 149);
+	line-height: 4em;
+	font-weight: bold;
+	font-align: center;
+}
+.page-navigation li a:hover {
+	color: yellowgreen;
+	background-color: rgb(119, 121, 197);
+}
+
+/* MAIN PART */
+.text-image {
+	overflow: auto;
+}
+
+/* FOOTER */
+.footer {
+	background-color: rgb(160, 243, 149);
+	color: #00008B;
+	padding: 20px 0;
+	margin-top: 30px;
+  
+}
