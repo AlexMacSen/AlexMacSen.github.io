@@ -1,0 +1,185 @@
+/* GENERAL STYLES */
+html,
+body {
+  height: 100%;
+  font-family: Arial, San-serif;
+  font-size: 100%;
+  margin: 0;
+  min-height: 100%;
+  background-color: rgb(160, 169, 197);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.3em;
+  text-align: justify;
+  text-indent: 35px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+img {
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.image-wraper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.image:hover {
+  transform: scale(0.9);
+  border: solid 5px rgb(0, 0, 139);
+
+}
+
+/* HEADER */
+
+.header,
+footer,
+h1,
+h2 {
+  color: rgb(0, 0, 139);
+  text-align: center;
+}
+
+/* NAVIGATION */
+.page-navigation {
+  background-color: rgb(39, 39, 126);
+  border-color: rgb(39, 39, 126);
+  min-height: 64px;
+}
+
+.page-navigation li {
+  float: left;
+  width: 150px;
+}
+
+.page-navigation a {
+  display: block;
+  color: rgb(160, 169, 197);
+  line-height: 4em;
+  font-weight: bold;
+}
+
+.page-navigation li a:hover {
+  color: rgb(39, 39, 126);
+  background-color: rgb(119, 121, 197);
+}
+
+/* MAIN PART */
+.main {
+  flex: 1 1 auto;
+}
+
+/* FORM */
+
+.my-form {
+  background-color: #5e5ec0;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 10px;
+}
+
+form div {
+  margin: 20px 0;
+  font-size: 18px;
+  color: rgb(39, 39, 126);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form label {
+  font-size: 22px;
+  line-height: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  border: 1px solid rgb(39, 39, 126);
+  background-color: rgb(159, 193, 201);
+  line-height: 22px;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 320px;
+}
+
+input[type=text],
+input[type=submit],
+input[type=email] {
+  height: 24px;
+}
+
+input[type=submit] {
+  border: 1px solid  rgb(0, 0, 0);
+  background-color: rgb(39, 39, 126);
+  line-height: 22px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: rgb(160, 169, 197);
+
+}
+
+input[type=submit]:hover {
+  background-color: rgb(253, 247, 247);
+  border: 1px solid  rgb(0, 0, 0);
+  color: rgb(39, 39, 126);
+  cursor: pointer;
+}
+
+textarea {
+  height: 96px;
+}
+
+
+input[type=submit] {
+  padding: 10px;
+  height: auto;
+}
+
+.name_wrapper,
+.email_wrapper,
+.summary_wrapper,
+.input_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* FOOTER */
+.footer {
+  background-color: rgb(38, 38, 125);
+  color: rgb(160, 169, 197);
+  margin-top: 30px;
+  padding: 5px 0;
+}
