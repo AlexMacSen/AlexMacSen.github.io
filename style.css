@@ -32,7 +32,7 @@ html, body {
 	  color : #00008B;
 	}
   p {
-	  font-size: 14px;
+	  font-size: 15px;
 	  line-height: 1.3em; 
 	   text-align: justify;
 	  text-indent: 35px; 
@@ -48,6 +48,7 @@ html, body {
 	font-size: 16px;
   }
   
+  
   /* HEADER */
   
   .header, .footer  {
@@ -61,13 +62,20 @@ html, body {
 	font-style : italic;
 	text-align : center;
   }
-  
+    
   /* NAVIGATION */
   .page-navigation {
 	  background-color: #00008B;
 	  min-height: 64px;
 	  position: sticky;
 	  top:0px;
+  }
+  .sub-page-navigation {
+	background-color: #00588b; 
+	min-height: 64px;
+	position: sticky;
+	top: 64px;
+	text-align: center;
   }
   .page-navigation li, .sub-page-navigation li {
 	  float: left;
@@ -95,17 +103,12 @@ html, body {
 	background-color: rgb(119, 121, 197);
   }
 
-  .sub-page-navigation {
-	background-color: #00588b; 
-	min-height: 64px;
-	position: sticky;
-	top: 64px;
-	text-align: center;
-  }
+  
 
   /* MAIN PART */
   .main {
-	  flex: 1 1 auto;
+	flex: 1 1 auto;
+		  
   }
   /* FOOTER */
   .footer {
