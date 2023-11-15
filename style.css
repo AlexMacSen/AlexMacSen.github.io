@@ -47,7 +47,7 @@ html, body {
   
   .header {
 	  background-color: rgb(160, 243, 149) ;
-  }
+	  }
   
   .header, footer, h1, h2 {
 	color:  #00008B;
@@ -60,24 +60,44 @@ html, body {
   /* NAVIGATION */
   .page-navigation {
 	  background-color: #00008B;
-	  border-color: #00008B;
 	  min-height: 64px;
+	  position: sticky;
+	  top:0px;
   }
-  .page-navigation li {
+  .page-navigation li, .sub-page-navigation li {
 	  float: left;
 	  width: 100px;
-  }
-  .page-navigation a {
+  }  
+  .page-navigation a, .sub-page-navigation a {
 	  display: block;
-	  color: rgb(160, 243, 149);
 	  line-height: 4em;
 	  font-weight: bold;
   }
+  .page-navigation a {
+	color: rgb(160, 243, 149);		
+  }
+  .sub-page-navigation a {
+	color: rgb(125, 194, 240);	
+  }
+
   .page-navigation li a:hover {
-	  color: yellowgreen;
+	  color: rgb(160, 243, 149);		
 	  background-color: rgb(119, 121, 197);
   }
-  
+
+  .sub-page-navigation a:hover {
+	color: rgb(125, 194, 240);	
+	background-color: rgb(119, 121, 197);
+  }
+
+  .sub-page-navigation {
+	background-color: #00588b; 
+	min-height: 64px;
+	position: sticky;
+	top: 64px;
+	text-align: center;
+  }
+
   /* MAIN PART */
   .main {
 	  flex: 1 1 auto;
