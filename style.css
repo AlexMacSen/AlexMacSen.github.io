@@ -5,8 +5,13 @@ html, body {
 	font-size: 100%;
 	margin: 0;
 	min-height: 100%;
-	/*display: grid;
-	grid-template-rows: auto 1fr auto;*/
+	background-color:rgb(180, 217, 247)
+   }
+   img {
+	border-radius: 10px;
+   }
+   hr {
+	border-color: black;
    }
    .wrapper {
 	  min-height: 100%;
@@ -45,8 +50,8 @@ html, body {
   
   /* HEADER */
   
-  .header {
-	  background-color: rgb(160, 243, 149) ;
+  .header, .footer  {
+	  background-color: rgb(149, 193, 243) ;
 	  }
   
   .header, footer, h1, h2 {
@@ -74,19 +79,19 @@ html, body {
 	  font-weight: bold;
   }
   .page-navigation a {
-	color: rgb(160, 243, 149);		
+	color: rgb(176, 252, 255);		
   }
   .sub-page-navigation a {
 	color: rgb(125, 194, 240);	
   }
 
   .page-navigation li a:hover {
-	  color: rgb(160, 243, 149);		
+	  color: #00008B;		
 	  background-color: rgb(119, 121, 197);
   }
 
-  .sub-page-navigation a:hover {
-	color: rgb(125, 194, 240);	
+  .sub-page-navigation li a:hover {
+	color:  #00588b; 
 	background-color: rgb(119, 121, 197);
   }
 
@@ -104,7 +109,6 @@ html, body {
   }
   /* FOOTER */
   .footer {
-	  background-color: rgb(160, 243, 149);
 	  color: #00008B;
 	  padding: 20px 0;
 	  margin-top: 30px;  
