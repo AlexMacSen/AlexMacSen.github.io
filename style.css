@@ -43,7 +43,7 @@ html, body {
   }
   img {margin: 15pt}
 
-  form div {
+    form div {
 	margin: 20px 0;
 	font-size: 16px;
   }
@@ -52,7 +52,7 @@ html, body {
   /* HEADER */
   
   .header, .footer  {
-	  background-color: rgb(149, 193, 243) ;
+	  background-color: rgb(149, 193, 243);
 	  }
   
   .header, footer, h1, h2 {
@@ -102,17 +102,96 @@ html, body {
 	color:  #00588b; 
 	background-color: rgb(119, 121, 197);
   }
-
-  
-
+ 
   /* MAIN PART */
   .main {
 	flex: 1 1 auto;
-		  
   }
+	/* FORM */
+
+.my-form {
+	background-color: #5e5ec0;
+	width: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	border-radius: 10px;
+  }
+  
+  form div {
+	margin: 20px 0;
+	font-size: 18px;
+	color: rgb(39, 39, 126);
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  form label {
+	font-size: 18px;
+	line-height: 18px;
+	display: inline-block;
+	margin-right: 10px;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+	border: 1px solid rgb(39, 39, 126);
+	background-color:  rgb(149, 193, 243);
+	line-height: 22px;
+	border-radius: 5px;
+	font-size: 18px;
+	width: 320px;
+  }
+  
+  input[type=text],
+  input[type=submit],
+  input[type=email] {
+	height: 24px;
+  }
+  
+  input[type=submit] {
+	border: 1px solid  rgb(0, 0, 0);
+	background-color: rgb(39, 39, 126);
+	line-height: 18px;
+	border-radius: 5px;
+	font-size: 18px;
+	color: rgb(160, 169, 197);
+  
+  }
+  
+  input[type=submit]:hover {
+	background-color: rgb(253, 247, 247);
+	border: 1px solid  rgb(0, 0, 0);
+	color: rgb(39, 39, 126);
+	cursor: pointer;
+  }
+  
+  textarea {
+	height: 96px;
+  }
+  
+  
+  input[type=submit] {
+	padding: 10px;
+	height: auto;
+  }
+  
+  .name_wrapper,
+  .email_wrapper,
+  .summary_wrapper,
+  .input_wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+  }
+	
   /* FOOTER */
   .footer {
-	  color: #00008B;
 	  padding: 20px 0;
 	  margin-top: 30px;  
   }
