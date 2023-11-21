@@ -53,6 +53,8 @@ html, body {
   
   .header, .footer  {
 	  background-color: rgb(149, 193, 243);
+	  
+
 	  }
   
   .header, footer, h1, h2 {
@@ -69,6 +71,8 @@ html, body {
 	  min-height: 64px;
 	  position: sticky;
 	  top:0px;
+	  display: flex;
+	  flex-direction: row;
   }
   .sub-page-navigation {
 	background-color: #00588b; 
